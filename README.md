@@ -5,8 +5,10 @@ UpArrow: Scroll 3 units up
 DownArrow: Scroll 3 units down
 
 Needs:
--Latest python
--Latest pynput package
+
+1)Latest python (download from: https://www.python.org/downloads/)
+
+2)Latest pynput package (from cmd or powershell: pip install pynput)
 
 ## Chrome changes
 Chrome made some modifications internally so... to work properly you need to:
