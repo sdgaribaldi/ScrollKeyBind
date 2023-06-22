@@ -11,11 +11,11 @@ def on_press(key):
     if key == keyboard.Key.up:
         # Scroll up 3 units
         mouse.scroll(0, 3)
-        print('Scrolling up')
+        #print('Scrolling up')
     elif key == keyboard.Key.down:
         # Scroll down 3 units
         mouse.scroll(0, -3)
-        print('Scrolling down')
+        #print('Scrolling down')
     elif key == keyboard.Key.esc:
         # Exit program
         print('Closing in 3 seconds')
